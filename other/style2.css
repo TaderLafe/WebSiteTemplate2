@@ -1,0 +1,157 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.acceuil {
+    width: 100%;
+    height: 100%;
+    background: #333;
+    background: url(../src/foretlumdown.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 210px;
+}
+
+.media-container {
+    display: flex;
+    padding-left: 210px;
+    margin: 20px 0 40px 0;
+    padding-top: 5%;
+}
+
+.medias-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.medias-btn:hover {
+    background: #333;
+}
+
+.icones {
+    margin-top: 20%;
+    width: 27px;
+    transition: all 0.2s ease-in-out;
+}
+
+.icones:hover {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-left: 210px;
+    background: transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: 2px solid #333;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background: #333;
+    color: #f1f1f1;
+}
+
+form img {
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 50px;
+}
+
+form {
+    max-width: 900px;
+    margin: 100px auto 0;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
+@media screen and (max-width: 900px){
+    form {
+        margin: 100px 10px;
+    }
+}
+
+.input-container:not(nth-child(1)){
+    margin-top: 20px;
+}
+
+.input-container label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-container img {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+
+.input-group {
+    display: flex;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: #fff;
+}
+.input-group input {
+    padding: 19px;
+    font-size: 18px;
+    flex-basis:  100%;
+    min-width: 200px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+form button {
+    margin-left: 0%;
+    margin-top: 2%;
+    background: transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: 2px solid #333;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+form button:hover {
+    color: #f1f1f1;
+    background: #333;
+}
+
+.input-container label {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
